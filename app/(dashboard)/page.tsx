@@ -5,6 +5,7 @@ import { StatsCards } from "../../components/partials/stats-cards";
 import { Separator } from "../../components/ui/separator";
 import CreateFormBtn from "../../components/functions/create-form-button";
 import { FormCardSkeleton } from "../../components/partials/form-card-skeleton";
+import { FormCards } from "../../components/partials/form-cards";
 
 export default function Home() {
   return (

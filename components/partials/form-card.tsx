@@ -1,9 +1,20 @@
+import { Form } from "@prisma/client";
+import Link from "next/link";
+import { formatDistance } from "date-fns";
+
 import { LuView } from "react-icons/lu";
 import { Badge } from "../ui/badge";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "../ui/card";
 import { FaEdit, FaWpforms } from "react-icons/fa";
 import { Button } from "../ui/button";
-import Link from "next/link";
+import { BiRightArrowAlt } from "react-icons/bi";
 
 export function FormCard({ form }: { form: Form }) {
   return (
