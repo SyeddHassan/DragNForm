@@ -31,7 +31,7 @@ import { BsFileEarmarkPlus } from "react-icons/bs";
 import { CreateForm } from "../../actions/form";
 import { formSchema, formSchemaType } from "../../schemas/form";
 
-function CreateFormBtn() {
+function CreateFormButton() {
   const router = useRouter();
   const form = useForm<formSchemaType>({
     resolver: zodResolver(formSchema),
@@ -121,4 +121,4 @@ function CreateFormBtn() {
   );
 }
 
-export default CreateFormBtn;
+export default CreateFormButton;
